@@ -1,0 +1,143 @@
+*{    margin: 0%;
+      border: border-box;
+      background-color: fff5e1;
+      font-family: Arial, Helvetica, sans-serif;
+     
+
+
+}
+.container{
+      display: flex;
+      flex-direction: row;
+     height: 100vh;
+     width: 100%;
+}
+.left-box{
+      width: 50%;
+      background-image: url(/image/pexels-hngstrm-1265952.jpg);
+      background-size:cover;
+      background-position: 50px;  
+      display: flex;
+      align-items: center;
+      justify-content: center;   
+      color:azure; 
+}
+.header-text{
+      font-size: 200px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: transparent;
+      z-index:1;
+}
+.right-box{
+      width:50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff5e1;
+      
+}
+.login-heading{
+      margin-left: 114px;
+      font-size: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.outer-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+.box1{
+      /* background-color: blueviolet; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: none;
+}
+.input-box{
+      height:60px;
+      width: 600px;
+      background-color: rgb(255, 255, 255);
+      color: black;
+      font-size: large;
+      text-align: start;
+      border:2px solid black;
+      border-radius: 8px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.box2{
+      /* background-color: pink; */
+      width: 600px ;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-between;
+      
+}
+#login_button{
+      width:150px;
+      height:50px;
+      font-size:large;
+      border-radius: 9px;
+      background-color: #e46c63;
+      border:2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
+#login_button:hover{
+      background-color: #8a2c27;
+      
+}
+.box3{
+      width: 600px;
+      color: black;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content:start;
+
+}
+hr{
+      border: 1px solid rgb(0, 0, 0);
+      margin-top: 30px;
+      margin-bottom: 30px;
+      
+}
+a{
+      margin: 20px;
+      text-decoration: none;
+      color:black;
+}
+.google-logo{
+      height: 50px;
+      width: 50px;
+      background-image: url(/image/google.jpg);
+      background-size: cover;
+}
+.Login-other{
+      height: 60px;
+      width: 600px;
+      color: black;
+      background-color: rgb(255, 255, 255);
+      border:2px solid black;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 10px;
+}
+.Login-other:hover{
+      background-color: bisque;
+}
+.github-logo{
+      height: 50px;
+      width: 50px;
+      background-image: url(/image/github.jpg);
+      background-size: cover;
+}
