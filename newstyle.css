@@ -14,7 +14,7 @@
 }
 .left-box{
       width: 55%;
-      background-image: url(/image/pexels-hngstrm-1265952.jpg);
+      background-image: url(image/pexels-hngstrm-1265952.jpg);
       background-size:cover;
       background-position: 50px;  
       display: flex;
@@ -142,14 +142,14 @@ a{
 .google-logo{
       height: 50px;
       width: 50px;
-      background-image: url(/image/google.jpg);
+      background-image: url(image/google.jpg);
       background-size: cover;
       margin-left:3px;
 }
 .github-logo{
       height: 50px;
       width: 50px;
-      background-image: url(/image/github.jpg);
+      background-image: url(image/github.jpg);
       background-size: cover;
       margin-left:3px;
 }
